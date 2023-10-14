@@ -7,7 +7,10 @@ function colorHandler(){
     const randomGeneratedNUmber = Math.floor(Math.random() * 10);
     console.log(randomGeneratedNUmber);
     colorName.textContent = color[randomGeneratedNUmber];
-    document.body.style.background = color[randomGeneratedNUmber];    
+    document.body.style.background = color[randomGeneratedNUmber]; 
+    
+
+
 
 }
 
