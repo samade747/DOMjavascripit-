@@ -8,6 +8,14 @@ function colorHandler(){
     console.log(randomGeneratedNUmber);
     colorName.textContent = color[randomGeneratedNUmber];
     document.body.style.background = color[randomGeneratedNUmber];
+
+    document.getElementById('ccme')
+    
+    let randomTop = Math.floor(Math.random() * window.innerHeight -50)
+    let randomLeft = Math.floor(Math.random() * window.innerWidth -100)
+
+    ccme.style.top = randomTop + 'px';
+    ccme.style.left = randomLeft + 'px';
 }
 
 
