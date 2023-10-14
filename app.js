@@ -12,10 +12,10 @@ function colorHandler(){
 
 
 
+let a = document.getElementById('getUl')
 
 function Access(){
     
-let a = document.getElementById('getUl')
 console.log(a.childNodes[3].textContent = 'Your IP address ..... ')
  
 let b = document.getElementById('getUl')
