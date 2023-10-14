@@ -7,10 +7,17 @@ function colorHandler(){
     const randomGeneratedNUmber = Math.floor(Math.random() * 10);
     console.log(randomGeneratedNUmber);
     colorName.textContent = color[randomGeneratedNUmber];
-    document.body.style.background = color[randomGeneratedNUmber]; 
-    
-
-
-
+    document.body.style.background = color[randomGeneratedNUmber];
 }
 
+
+
+
+function Access(){
+    
+let a = document.getElementById('getUl')
+console.log(a.childNodes[3].textContent = 'Your IP address ..... ')
+ 
+let b = document.getElementById('getUl')
+console.log(b.childNodes[1].textContent = 'Network Access Connected')
+}
