@@ -15,8 +15,8 @@ function colorHandler(){
     let ccme = document.getElementById('ccme');        
 
 
-    let randomTop = Math.floor(Math.random() * (window.innerHeight -50));
-    let randomLeft = Math.floor(Math.random() * (window.innerWidth -100));
+    let randomTop = Math.floor(Math.random() * (window.innerHeight -30));
+    let randomLeft = Math.floor(Math.random() * (window.innerWidth -60));
     ccme.style.top = randomTop + 'px';
     ccme.style.left = randomLeft + 'px';
 }
@@ -27,13 +27,18 @@ let a = document.getElementById('getUl')
 
 function Access(){
     
-console.log(a.childNodes[3].textContent = 'Your IP address ..... ');
+a.childNodes[3].textContent = 'Your IP address ..... ';
  
 let b = document.getElementById('getUl');
-console.log(b.childNodes[1].textContent = 'Network Access Connected');
+b.childNodes[1].textContent = 'Network Access Connected';
 
 let bnt = document.getElementById('bbn');
 bnt.style.display = 'none';
 
+}
 
+function lelei() {
+let lili = document.getElementById('lele');
+console.log(lili);
+lili.parentNode.textContent = '186.0.125.124.5';
 }
