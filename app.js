@@ -16,8 +16,13 @@ let a = document.getElementById('getUl')
 
 function Access(){
     
-console.log(a.childNodes[3].textContent = 'Your IP address ..... ')
+console.log(a.childNodes[3].textContent = 'Your IP address ..... ');
  
-let b = document.getElementById('getUl')
-console.log(b.childNodes[1].textContent = 'Network Access Connected')
+let b = document.getElementById('getUl');
+console.log(b.childNodes[1].textContent = 'Network Access Connected');
+
+let bnt = document.getElementById('bbn');
+bnt.style.display = 'none';
+
+
 }
